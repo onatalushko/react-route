@@ -1,0 +1,11 @@
+.sidebar {
+  border-left: 1px solid var(--color-line);
+  padding: 25px;
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    border-top: 1px solid var(--color-line);
+    border-left: none;
+  }
+}

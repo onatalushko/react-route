@@ -1,0 +1,17 @@
+.post__image img {
+  width: 100%;
+}
+
+.post__title {
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.post__title a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.post__title a:hover {
+  color: var(--color-primary);
+}
